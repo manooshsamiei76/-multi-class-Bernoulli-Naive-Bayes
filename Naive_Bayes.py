@@ -88,6 +88,7 @@ def test():
     (acc, average_acc) = d.evaluate_acc(y_testing, y_prediction)
     print("Average accuracy on test set: ", average_acc)
     print("Accuracy on test set for each class (in the order of the dictionary): ", acc)
-        
-test()     
+
+if __name__ == "__main__":        
+    test()     
         
